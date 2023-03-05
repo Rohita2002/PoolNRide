@@ -26,7 +26,7 @@
 
 ## Chrome browser
 
-> install "cors" extension in your fav browser :)
+> install "cors" extension in your fav browser and enable it :)
 
 `https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf/related?hl=en`
 
