@@ -8,7 +8,7 @@
 
 `npm i `
 
-> starting the server
+> starting the app
 >
 > `npm start`
 
@@ -29,3 +29,7 @@
 > install "cors" extension in your fav browser :)
 
 `https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf/related?hl=en`
+
+> starting the server
+>
+> `nodemon index.js`
