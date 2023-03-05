@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 const userTemplateCopy = require('../models/userModel.js');
 
-router.post('/login', (request, response) => {
+router.post('/signin', (request, response) => {
 	const { userName, userPassword } = request.body;
 
 	//user/userDetail check during integration (remember)
@@ -15,11 +15,11 @@ router.post('/login', (request, response) => {
 				//if username and password matches
 				if (userPassword === userDetail.userPassword) {
 					response.send({
-						message: 'Login successfull',
+						message: 'Signin successfull',
 						userDetail: userDetail,
 					});
 				} else {
-					response.send({ message: "Password didn't match" });
+					response.send({ message: "Incorrect credentials." });
 				}
 			} else {
 				response.send({ message: 'User not registered.' });
